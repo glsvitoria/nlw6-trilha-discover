@@ -1,0 +1,79 @@
+.content {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 11.4rem 1fr; /*Primeira linha tem a medida determinada e o resto será dividido em uma fração, ocupando todo o espaço restante*/
+    grid-template-areas: 
+    'header header'
+    'left right'
+}
+
+header {
+    grid-area: header;
+}
+
+#bg {
+    grid-area: left;
+
+    background: url('../assets/home-backg-img-red.svg') no-repeat top/contain;
+}
+
+main {
+    grid-area: right;
+
+    display: flex;
+    align-items: center;
+}
+
+main .container {
+    width: min(36.3rem, 100%);
+}
+
+main h2 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--black);
+    font-size: clamp(20px, 5vw, 2.8rem);
+    margin-bottom: 2.4rem;
+}
+
+/*-------- INPUT AND BUTTONS --------*/
+input {
+    border: .2rem solid var(--light-red);
+    padding: 0 1.6rem;
+}
+
+button, .button {
+    font-family: 'Poppins';
+    font-weight: 500;
+    line-height: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--red);
+    color: var(--white);
+
+    transition: filter .2s;
+
+    cursor: pointer;
+}
+
+button:hover, .button:hover{
+    filter: brightness(1.2);
+}
+
+button img, .button img {
+    margin-right: 1rem;
+    width: 2rem;
+}
+
+button.outlined, .button.outlined {
+    background: var(--white);
+    color: var(--red);
+    border: .2rem solid var(--red);
+}
+
+input, button, .button {
+    width: 100%;
+    margin-bottom: 1.8rem;
+}
