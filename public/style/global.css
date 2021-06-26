@@ -103,6 +103,11 @@ button.red, .button.red {
     color: var(--white);
 }
 
+button.blue, .button.blue {
+    background: var(--blue);
+    color: var(--white);
+}
+
 button.grey, .button.grey {
     background: var(--grey-light);
     color: var(--grey-dark);
