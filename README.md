@@ -42,7 +42,7 @@
 ![](./public/images/Screenshot.png)
   
 ### Links
- - Site hospedado: [Rocket.q](https://rocket-q-nlw-discover.herokuapp.com/)
+ - Site hospedado: [Rocket.q](https://rocket-question.herokuapp.com/)
 
 ## Processo
 
