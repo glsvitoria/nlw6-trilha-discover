@@ -6,6 +6,8 @@
 ## Um pouco do Projeto:
 
 ➡ Projeto desenvolvido na Next Level Week 6 - Together da RocketSeat na Trilha Discover
+
+  
 ➡ Um site com a funcionalidade de cadastro de salas por usuários que irá gerar um código único que pode ser enviado para outros usuários acessarem a sala e poderem enviar perguntas anônimas pra o dono da sala que poderá controla-las marcando-as como lida ou excluir ela com a autenticação da senha criado ao iniciar a sala
 
 ## Conteúdos
@@ -16,11 +18,9 @@
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [Processo](#processo)
-  - [Contruido com](#construido-com)
   - [Tecnologia utilizadas](#tecnologias-utilizadas)
   - [O que eu aprendi](#oque-eu-aprendi)
   - [Continuação do desenvolvimento](#continuacao-do-desenvolvimento)
-  - [Recursos úteis](#recursos-uteis)
 - [Autor](#autor)
 
 ## Overview
